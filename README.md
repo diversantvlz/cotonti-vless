@@ -18,9 +18,9 @@ Support cached compile, forced compile.
   
   # Force compile.
   
-  1. Enable development mode in the file "datas/config.php"
+  1. Enable debug mode in the file "datas/config.php"
 ```php 
   //datas/config.php
   $cfg['debug_mode'] = true;
 ```
-2. Send your request to the server http://mydomain/index.php?vlessforce=1
+2. Send your request to the server with a parameter vlessforce = 1 **example: http://mydomain/index.php?vlessforce=1 **
