@@ -16,7 +16,7 @@ Support cached compile, forced compile.
 ```
   be sure to specify the second parameter file extension "less".
   
-  # Force compile.
+# Force compile.
   
   1. Enable debug mode in the file "datas/config.php"
 ```php 
