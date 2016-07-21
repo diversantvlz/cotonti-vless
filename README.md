@@ -23,4 +23,4 @@ Support cached compile, forced compile.
   //datas/config.php
   $cfg['debug_mode'] = true;
 ```
-2. Send your request to the server with a parameter vlessforce = 1 **example: http://mydomain/index.php?vlessforce=1 **
+  2. Send your request to the server with a parameter vlessforce = 1 **example: http://mydomain/index.php?vlessforce=1 **
