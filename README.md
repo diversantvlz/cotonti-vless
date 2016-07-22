@@ -1,6 +1,6 @@
 cotonti-vless
 =============
-less compiler, based on Lessc for cotonti cms.
+less compiler, based on Lessc for cotonti cmf *siena 0.9.18*.
 Support cached compile, forced compile.
 
 # Usage:
