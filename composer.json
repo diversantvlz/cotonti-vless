@@ -1,0 +1,6 @@
+{
+  "require": {
+    "leafo/scssphp": "*",
+    "oyejorge/less.php": "~1.7.0.9"
+  }
+}
