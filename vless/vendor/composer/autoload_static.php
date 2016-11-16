@@ -16,7 +16,7 @@ class ComposerStaticInit463281395828c034a8c2696fe2baa804
     public static $prefixDirsPsr4 = array (
         'Leafo\\ScssPhp\\' => 
         array (
-            0 => __DIR__ . '/..' . '/leafo/scssphp/src',
+            0 => __DIR__ . '/..',
         ),
     );
 
@@ -25,13 +25,13 @@ class ComposerStaticInit463281395828c034a8c2696fe2baa804
         array (
             'Less' => 
             array (
-                0 => __DIR__ . '/..' . '/oyejorge/less.php/lib',
+                0 => __DIR__ . '/..',
             ),
         ),
     );
 
     public static $classMap = array (
-        'lessc' => __DIR__ . '/..' . '/oyejorge/less.php/lessc.inc.php',
+        'lessc' => __DIR__ . '/..',
     );
 
     public static function getInitializer(ClassLoader $loader)
