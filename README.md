@@ -7,14 +7,15 @@ Support cached compile, forced compile, @import files, automatic recompilation i
 
 1. copy the files in the plugins directory.
 2. Install the plugin through admin panel.
-3. Register your less file in mytheme.rc.php 
+3. Register your less or scss file in mytheme.rc.php 
 
 **example:**
 ```php 
   //themes/mytheme/mytheme.rc.php 
-  Resources::addFile($cfg['themes_dir'].'/'.$usr['theme'].'/bootstrap/less/bootstrap.less', 'less'); 
+  Resources::addFile($cfg['themes_dir'].'/'.$usr['theme'].'/bootstrap/less/bootstrap.less', 'less');
+  Resources::addFile($cfg['themes_dir'].'/'.$usr['theme'].'/bootstrap/less/bootstrap.scss', 'scss');
 ```
-  be sure to specify the second parameter file extension "less".
+  be sure to specify the second parameter file extension "less/scss".
   
 # Force compile.
   
