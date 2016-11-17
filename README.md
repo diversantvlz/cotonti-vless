@@ -11,9 +11,11 @@ Support cached compile, forced compile, @import files, automatic recompilation i
 
 **example:**
 ```php 
-  //themes/mytheme/mytheme.rc.php 
+  //themes/mytheme/mytheme.rc.php
+  // less
   Resources::addFile($cfg['themes_dir'].'/'.$usr['theme'].'/bootstrap/less/bootstrap.less', 'less');
-  Resources::addFile($cfg['themes_dir'].'/'.$usr['theme'].'/bootstrap/less/bootstrap.scss', 'scss');
+  // or scss
+  Resources::addFile($cfg['themes_dir'].'/'.$usr['theme'].'/bootstrap/scss/bootstrap.scss', 'scss');
 ```
   be sure to specify the second parameter file extension "less/scss".
   
